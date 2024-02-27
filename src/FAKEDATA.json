@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Inception",
+        "duration": 148,
+        "genre": "Science Fiction",
+        "director": "Christopher Nolan",
+        "avaliation": 8,
+        "favorite": false
+    },
+    {
+        "name": "The Shawshank Redemption",
+        "duration": 142,
+        "genre": "Drama",
+        "director": "Frank Darabont",
+        "avaliation": 8.9,
+        "favorite": false
+    },
+    {
+        "name": "The Godfather",
+        "duration": 175,
+        "genre": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "avaliation": 5.6,
+        "favorite": true
+    },
+    {
+        "name": "The Dark Knight",
+        "duration": 152,
+        "genre": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "avaliation": 9,
+        "favorite": false
+    },
+    {
+        "name": "Pulp Fiction",
+        "duration": 154,
+        "genre": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "avaliation": 5,
+        "favorite": false
+    },
+    {
+        "name": "Forrest Gump",
+        "duration": 142,
+        "genre": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "avaliation": 7,
+        "favorite": true
+    }
+]

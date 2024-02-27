@@ -1,0 +1,35 @@
+.tableSection{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableContainer {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+  .tableRow {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tableCell {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .tableCell:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .tableCell:first-child {
+    border-right: 1px solid #ccc;
+  }
+  
+  .tableCell:last-child {
+    text-align: center;
+  }
+  
