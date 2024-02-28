@@ -13,6 +13,7 @@ function App() {
         <FilmsSection />
         <TableSection />
         
+        <FilmsSection title="Favoritos" />
       </main>
 
       <Footer />

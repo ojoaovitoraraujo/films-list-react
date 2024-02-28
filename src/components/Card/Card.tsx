@@ -1,15 +1,21 @@
 import './Card.css';
 
-function Card(){
+type CardProps = {
+  name: string;
+  director?: string;
+  duration?: number;
+  image?: string;
+}
+function Card(props: CardProps){
     return(
       <div className="card">
-        <img src="https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="img" />
+        <img src={props.image} alt="img" />
         <div className="card-info">
           <div className="infos">
-            <h3>Matrix 4</h3>
-            <p>Nome do diretor</p>
+            <h3>{props.name}</h3>
+            <p>{props.director}</p>
           </div>
-          <p className="duration">127min</p>
+          <p className="duration">{props.duration}</p>
         </div>
       </div>
     )
